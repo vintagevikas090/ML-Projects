@@ -4,25 +4,15 @@
 
 **This project is an end-to-end data science application that predicts real estate prices in Bengaluru, India. It features a complete workflow from data cleaning and feature engineering to model training and deployment using a user-friendly web interface built with \*\*Streamlit\*\*. The core of the prediction is a \*\*Linear Regression\*\* model which achieved an \*\*R-squared score of \\~83%\*\* on the test data.**
 
-
-
 **-----**
-
-
 
 **## 🚀 Project Demo**
 
-
-
-
+<img width="1026" height="774" alt="final_web_view" src="https://github.com/user-attachments/assets/3f527cc1-6dfe-404a-97eb-614b334b3d76" />
 
 **-----**
 
-
-
 **## ✨ Features**
-
-
 
   **\* \*\*Real-time Price Prediction:\*\* Get instant price estimates based on property attributes.**
 
@@ -285,6 +275,7 @@
 
 
 **-----**
+
 
 
 
