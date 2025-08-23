@@ -1,0 +1,70 @@
+
+### Dataset Description: Bengaluru House Prices
+
+This dataset is a collection of information on residential properties in Bengaluru, India, intended for machine learning applications to predict property prices. It includes essential features that describe property characteristics and market attributes.
+
+#### **Dataset Overview**
+- **Total Rows (Records)**: 13,320
+- **Total Columns (Features)**: 9
+- **Target Variable**: `price` (property price in lakhs)
+
+---
+
+#### **Feature Descriptions**
+
+1. **area_type**
+   - **Description**: Specifies the type of area associated with the property.
+   - **Examples**: 
+     - Super built-up Area
+     - Built-up Area
+     - Plot Area
+     - Carpet Area
+
+2. **availability**
+   - **Description**: Indicates the availability status of the property.
+   - **Examples**: 
+     - "Ready to Move"
+     - Specific dates like "19-Dec"
+
+3. **location**
+   - **Description**: The specific locality or neighborhood of the property in Bengaluru.
+   - **Examples**: 
+     - Electronic City Phase II
+     - Uttarahalli
+     - Lingadheeranahalli
+
+4. **size**
+   - **Description**: The number of bedrooms or configuration of the property.
+   - **Examples**: 
+     - 2 BHK
+     - 3 Bedroom
+
+5. **society**
+   - **Description**: Name of the housing society or residential complex.
+   - **Examples**:
+     - Coomee
+     - Theanmp
+
+6. **total_sqft**
+   - **Description**: Total area of the property in square feet.
+
+7. **bath**
+   - **Description**: Number of bathrooms in the property.
+
+8. **balcony**
+   - **Description**: Number of balconies in the property.
+
+9. **price**
+   - **Description**: Price of the property in lakhs (target variable).
+
+---
+
+#### **Data Characteristics**
+- **Size and Scope**: The dataset provides an extensive range of property features, making it suitable for exploratory data analysis and regression tasks.
+- **Missing Data**: Several columns, particularly `society`, have missing values, requiring preprocessing for effective modeling.
+- **Data Format**:
+   - Mixed data types (Categorical, Numeric, and Mixed for `total_sqft`).
+   - Range and irregular formats in `total_sqft` column may need normalization.
+- **Outliers**: Columns like `price`, `bath`, and `total_sqft` may contain outliers typical in real estate datasets.
+
+
